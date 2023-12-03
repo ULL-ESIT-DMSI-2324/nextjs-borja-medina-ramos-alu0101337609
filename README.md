@@ -14,5 +14,11 @@
 
   ![consultas-thunder-client](./img/requests.png)
 
-  He aquí un el resultado de la consulta por una imagen de una linda nutria:
-  ![nutria-linda](https://oaidalleapiprodscus.blob.core.windows.net/private/org-Fh29NbIUyGMB7cJGXGHWoA2D/user-xaNfKK2gb7bpMUAuvWHiMFee/img-MLepwlw6RvM1CmZGwOHCFbzI.png?st=2023-12-03T17%3A04%3A58Z&se=2023-12-03T19%3A04%3A58Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-12-02T22%3A38%3A40Z&ske=2023-12-03T22%3A38%3A40Z&sks=b&skv=2021-08-06&sig=M9GcU1djmHsVjc%2BNO7HebJqxTH1eWQT0yxrcyhlG3%2Bw%3D)
+
+## Sitio Web para solicitar motes de máscotas.
+
+  - En el fichero index.js se expone la función donde se muestra la interfaz de la página home así como el código para realizar una llamada fetch para solicitar un nombre aleatorio sobre el submit que el usuario haya indicado.
+  
+  - El fetch redirigirá la consulta a la ruta /api/generate donde se llama a la función sin nombre exportada y crea el completion devolviendo como resultado el nombre de la mascota.
+
+  ![homepage](./img/dmsi-page.png)
