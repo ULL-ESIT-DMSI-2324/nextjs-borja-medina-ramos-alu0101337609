@@ -37,3 +37,6 @@
   ![enlace-netlify](/img/link-netlify.PNG)
 
 
+  - Se realiza un chequeo del estado de la cuenta y del sitio de Netlify como las variables de entorno:
+
+  ![status](/img/ntl-status.PNG)
