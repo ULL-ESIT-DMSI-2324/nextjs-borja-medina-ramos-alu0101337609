@@ -24,7 +24,7 @@
   ![homepage](./img/dmsi-page.png)
 
 
-## Despliegue de Netlify desde el sitio web
+## Despliegue de Netlify
 
   - Se procede a realizar el despliegue del proyecto mediante la UI de Netlify. A continuación se muestra el resultado de
   dicho despliegue:
@@ -40,3 +40,15 @@
   - Se realiza un chequeo del estado de la cuenta y del sitio de Netlify como las variables de entorno:
 
   ![status](/img/ntl-status.PNG)
+
+## Despliegue en Vercel
+
+  - Se realiza el mismo despliegue pero en la plataforma de desarrollo y despliegue de Vercel:
+
+  ![configuracion](/img/despliegue-netlify.PNG)
+
+
+  ![despliegue](/img/construccion-depliegue-vercel.PNG)
+
+
+  ![resultado](/img/resultado-vercel.PNG)
