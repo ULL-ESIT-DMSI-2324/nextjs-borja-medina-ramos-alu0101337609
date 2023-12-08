@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Borja Medina Ramos';
-export const siteTitle = 'Práctica de Prueba de DMSI';
+export const siteTitle = 'Práctica Rutas Diná,icas Next.js';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Práctica de Rutas Dinámicas con Next.js"
         />
         <meta
           property="og:image"
