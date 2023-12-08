@@ -52,3 +52,44 @@
 
 
   ![resultado](/img/resultado-vercel.PNG)
+
+## Ejercicio de rutas dinámicas
+
+- El ejercicio consiste en la creación de un blog con sus diversos post utilizando los mecánismo de rutas dinámicas.
+- Vease las siguientes funcionalidades utilizadas en el código:
+
+### Funcionalidades:
+
+#### 1. Importaciones:
+
+- Importa elementos necesarios como el encabezado (`Head`), el diseño (`Layout`), estilos (`utilStyles`), funciones para obtener datos ordenados (`getSortedPostsData`), enlaces (`Link`), y el componente de fecha (`Date`).
+
+#### 2. Función Principal (`Home`):
+
+- Define un componente funcional llamado `Home` que representa la página principal del blog.
+- Utiliza el componente `Layout` y establece el título de la página con el nombre del sitio (`siteTitle`).
+- Contiene dos secciones: una para una introducción personalizada y otra para mostrar las publicaciones del blog.
+
+#### 3. Introducción Personalizada:
+
+- Dentro de la primera sección, hay un párrafo que podría ser una breve introducción personal.
+
+#### 4. Listado de Publicaciones del Blog:
+
+- En la segunda sección, se presenta un encabezado (`h2`) que dice "Blog".
+- Luego, muestra una lista (`ul`) de enlaces a las publicaciones del blog.
+- Cada publicación está representada como un elemento de lista (`li`) que contiene un enlace (`Link`) al detalle de esa publicación, el título de la publicación y la fecha de publicación.
+
+#### 5. Obtención de Datos Estáticos (`getStaticProps`):
+
+- Utiliza la función `getStaticProps` para obtener y ordenar los datos de todas las publicaciones del blog.
+- Retorna estos datos como propiedades (`allPostsData`) que se utilizarán al renderizar la página.
+
+#### Algunas imágenes del resultado obtenido trás el tutorial:
+
+![home](/img/home.PNG)
+
+![post](/img/post.PNG)
+
+![404-page](/img/404-page.PNG)
+
