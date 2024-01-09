@@ -5,13 +5,17 @@ const openai = new OpenAI({
 });
 
 export default async function (req, res) {
-  const completion = await openai.completions.create({
-    model: "text-davinci-003",
-    prompt: generatePrompt(req.body.animal),
+  const completion = await openai.chat.completions.create({
+    model: "gpt-3.5-turbo",
     max_tokens: 7,
     temperature: 0,
+    messages: [
+      { role: 'system', content: 'You are a helpful assistant.' },
+      { role: 'user', content: generatePrompt(req.body.animal) },
+    ],
   });
-  res.status(200).json({ result: completion.choices[0].text });
+  console.log(completion.choices)
+  res.status(200).json({ result: completion.choices[0].message.content});
 }
 
 function generatePrompt(animal) {

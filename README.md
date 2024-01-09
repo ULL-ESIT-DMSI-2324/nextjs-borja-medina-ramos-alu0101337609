@@ -93,3 +93,6 @@
 
 ![404-page](/img/404-page.PNG)
 
+#### Se crea una nueva ruta donde se permite generar imágenes personalizada con el modelo Dalle.
+
+![Alt text](image.png)
